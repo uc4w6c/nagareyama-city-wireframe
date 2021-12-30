@@ -1,0 +1,163 @@
+.header {
+  font-size: 95%;
+  width: 950px;
+  background: #FFFFFF;
+  padding: 6px 0px 7px 0px;
+}
+.tlogo {
+  margin: auto 0px auto 0px;
+  width: 244px;
+  max-height: 91px;
+  float: left;
+  text-align: left;
+}
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tlogo1 {
+  float: left;
+  margin: 0;
+}
+.tlogo2 {
+  float: right;
+  margin: 0px 0px 0px 15px;
+}
+
+.util {
+  margin: 14px 0px 0px 0px;
+  width: 696px;
+  float: right;
+  text-align: right;
+  font-size: 85%;
+}
+
+.util1 {
+  margin: 0px 0px 10px 0px;
+}
+
+.header-change-buttom {
+  display: inline-block;
+  margin: 0;
+}
+.header-change-buttom-text {
+  display: inline-block;
+}
+.header-change-buttom-dd {
+  display: inline-block;
+  margin: 0;
+}
+.header-change-buttom-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.header-change-buttom-list-item {
+  display: inline;
+  vertical-align: middle;
+}
+
+.fontsizes, .fontsize, .fontsizel {
+  margin-right: 1px;
+  padding: 2px 3px 2px 3px;
+  display: inline-block;
+  font-size: 90%;
+  color: #333;
+  background: #E0E0E0 url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/header/support_bg.gif) repeat-x left top;
+  border: 1px solid #666;
+  text-decoration: none;
+}
+.fontsizes {
+  padding-left: 20px;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/header/small.gif) no-repeat 4px center,#E0E0E0 url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/header/support_bg.gif) repeat-x left top;
+}
+
+.viewmode {
+  margin-bottom: 10px;
+  font-size: 95%;
+  display: inline;
+  width: 205px;
+  float: right;
+  font-size: 95%;
+}
+
+.viewmode-dl {
+  margin: 0 0 0 5px;
+  background: #FFFFFF;
+  border: 1px solid #333300;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.viewmode-text {
+  display: table-cell;
+  padding: 4px 6px 4px 6px;
+  border-right: 1px solid #333300;
+  vertical-align: middle;
+  color: #FFFFFF;
+  background: #333300;
+}
+
+.viewmode-dd {
+  display: table-cell;
+  vertical-align: middle;
+}
+.viewmode-ul {
+  display: table;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.viewmode-li {
+  display: table-cell;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.viewmode-href  {
+  padding: 4px 5px 4px 25px;
+  display: block;
+  color: #333333;
+  text-decoration: none;
+}
+
+.viewmode_pc {
+  border-right: 1px solid #333300;
+  background: #CCCCCC url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/header/small.gif) no-repeat 5px center;
+}
+
+.viewmode_smp {
+  padding-left: 20px;
+  border: none;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/page/smp.png) no-repeat 5px center, -moz-linear-gradient(top,#FFFFFF,#EEEEEE);
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/page/smp.png) no-repeat 5px center, -webkit-gradient(linear,left top,left bottom,from(#FFFFFF),to(#EEEEEE));
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/page/smp.png) no-repeat 5px center, linear-gradient(to bottom, #FFFFFF,#EEEEEE);
+}
+
+.util2 {
+  padding-top: 4px;
+  width: 410px;
+  float: right;
+}
+
+.util2-ul {
+  display: inline;
+  margin: 5px 0px 10px 0px;
+  padding: 0;
+}
+.util2-li {
+  margin-left: 4px;
+  padding-left: 16px;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/header/mark_util.png) no-repeat left 3px;
+  display: inline;
+}
+.util2-href {
+  display: inline-block;
+}
