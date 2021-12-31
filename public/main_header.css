@@ -32,16 +32,28 @@
   margin: 0;
 }
 
+.pickup-main-photo-href {
+  display: block;
+  text-align: center;
+}
+
 /** ナビゲージョンバー */
 .topgnavibg {
   background: #007D38;
   margin: 0px;
   width: 100%;
+}
+
+.gnavi {
   background: #00662E url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/gnavi/gnavi_bg.png) repeat-x left bottom;
+  width: 1130px;
 }
 
 .topgnavi-ul {
   list-style-type: none;
+  width: 950px;
+  clear: both;
+  padding: 0;
 }
 
 .topgnavi-li {
@@ -49,7 +61,6 @@
   margin-left: 1px;
   border: 2px solid #52886A;
   float: left;
-  font-size: 110%;
 }
 .topgnavi-top {
   margin-left: 0px;
@@ -57,4 +68,10 @@
 .topgnavi-href {
   color: #FFFFFF;
   background: #00662E url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/gnavi/gnavi_bg.png) repeat-x left bottom;
+  padding: 18px 8px 18px 8px;
+  width: 137px;
+  display: block;
+}
+.topgnavi-href-top {
+  width: 140px;
 }

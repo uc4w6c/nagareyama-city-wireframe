@@ -2,6 +2,7 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="main_header.css">
+  <link rel="stylesheet" href="main_body.css">
 </head>
 <body class="body">
   <header class="header">
@@ -65,22 +66,32 @@
       <div class="window">
         <div class="pickup-main" aria-hidden="true" id="mvpanel1" role="tabpanel" aria-labeledby="mvtab1">
           <p class="photoleft">
-            <a href="https://brand.city.nagareyama.chiba.jp/" target="_blank" tabindex="-1">
+            <a class="pickup-main-photo-href" href="https://brand.city.nagareyama.chiba.jp/" target="_blank" tabindex="-1">
               <img src="https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/000/001/sutairu2.png" alt="流山市ブランディングサイト「ながれやまStyle」公開（外部リンク・新しいウインドウで開きます）" width="948" height="250" tabindex="-1">
             </a>
           </p>
         </div>
     </div>
-    <nav id="topgnavibg" role="navigation" aria-label="メインメニュー">
-      <ul class="topgnavi-ul clearfix">
-        <li class="topgnavi-li topgnavi-top"><a href="#">くらしの情報</a></li>
-        <li class="topgnavi-li"><a class="topgnavi-href" href="#">流山市の魅力</a></li>
-        <li class="topgnavi-li"><a class="topgnavi-href" href="#">イベント</a></li>
-        <li class="topgnavi-li"><a class="topgnavi-href" href="#">施設案内</a></li>
-        <li class="topgnavi-li"><a class="topgnavi-href" href="#">事業者向け情報</a></li>
-        <li class="topgnavi-li"><a class="topgnavi-href" href="#">市政情報</a></li>
-      </ul>
+    <nav class="topgnavibg" role="navigation" aria-label="メインメニュー">
+      <div class="gnavi">
+        <ul class="topgnavi-ul clearfix">
+          <li class="topgnavi-li topgnavi-top"><a class="topgnavi-href topgnavi-href-top" href="#">くらしの情報</a></li>
+          <li class="topgnavi-li"><a class="topgnavi-href" href="#">流山市の魅力</a></li>
+          <li class="topgnavi-li"><a class="topgnavi-href" href="#">イベント</a></li>
+          <li class="topgnavi-li"><a class="topgnavi-href" href="#">施設案内</a></li>
+          <li class="topgnavi-li"><a class="topgnavi-href" href="#">事業者向け情報</a></li>
+          <li class="topgnavi-li"><a class="topgnavi-href" href="#">市政情報</a></li>
+        </ul>
+      </div>
     </nav>
 
+    <div class="toppagebody clearfix">
+      <div class="search-block">
+        <div class="search-input">
+          <input class="search-input-text" type="text">
+        </div>
+        <button class="search-submit">検索</button>
+      </div>
+    </div>
   </main>
 </body>

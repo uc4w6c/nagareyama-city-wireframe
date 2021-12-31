@@ -1,0 +1,26 @@
+.toppagebody {
+  padding-top: 25px;
+  background: #FFFFFF url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/content/wrap_bg.png) repeat-x left -120px;
+  text-align: left;
+}
+
+.search-block {
+  display: flex;
+  margin-left: 10px;
+}
+
+.search-input-text {
+  position: relative;
+  border: 1px solid #BBBBBB;
+  width: 400px;
+  height: 30px;
+}
+.search-submit {
+  display: block;
+  width: 50px;
+  height: 30px;
+  margin: 0;
+  background-color: #EB4A68;
+  border-color: #EB4A68;
+  color: #fff;
+}
