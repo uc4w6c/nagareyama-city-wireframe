@@ -245,3 +245,137 @@
 .life-href {
   font-size: 13px;
 }
+
+/** その他情報 */
+.information-block {
+  display: flex;
+  width: 950px;
+}
+.information-left-block {
+  width: 675px;
+}
+.information-right-block {
+  width: 275px;
+}
+
+/** 行政情報 */
+.government-block {
+  margin: 30px 0 0 10px;
+  background: #ffe8eb;
+  padding: 10px;
+  width: 600px;
+}
+.government-title {
+  font-size: 18px;
+  margin: 0;
+}
+.government-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0 10px 10px 15px;
+  background: #fff;
+}
+.government-item {
+  text-decoration: none;
+  height: 55px;
+  margin: 10px 10px 0 0;
+}
+
+/** 案内　*/
+.guidance-block {
+  display: flex;
+  flex-wrap: wrap;
+  background: #e6f1f5;
+  margin: 30px 0 0 10px;
+  padding: 10px;
+  width: 600px;
+}
+.guidance-article-block {
+  width: 200px;
+  margin: 0 0 15px 0;
+}
+.guidance-article-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+.guidance-article-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.guidance-article-href {
+  font-size: 12px;
+  color: #808080;
+  text-decoration: none;
+}
+
+/** イベント */
+.event-block {
+  margin: 30px 0px 20px 0px;
+  padding: 6px;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/top/event_bg.gif);
+}
+.event-title {
+  padding: 7px 5px 6px 30px;
+  color: #FFFFFF;
+  font-size: 110%;
+  background: #333300 url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/top/event_h2.gif) no-repeat 10px 12px;
+  border: 1px solid #FFFFFF;
+  margin: 0;
+}
+.eventtoday {
+  padding: 5px;
+  background: #FFFFFF;
+}
+.eventtoday-title {
+  margin: 0 0 5px 0;
+  padding: 4px 5px 2px 8px;
+  clear: both;
+  color: #333300;
+  font-size: 100%;
+  background: #E9E9E4;
+  border-top: 1px dotted #A5A58F;
+}
+.toptodayevent-list {
+  margin: 0px 3px 8px 8px;
+  list-style-type: none;
+  padding: 0;
+}
+.toptodayevent-item {
+  margin: 0px 0px 5px 0px;
+  font-size: 95%;
+}
+.toptodayevent-icon {
+  margin: 0px 3px 0px 0px;
+  vertical-align: middle;
+}
+.toptodayevent-href {
+  font-size: 13px;
+}
+.event-calendar {
+  margin: 0px 5px 0px 5px;
+  padding-top: 3px;
+  border-top: 1px dotted #A5A58F;
+  text-align: right;
+}
+.event-calendar-href {
+  padding-left: 15px;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/content/mark_list.png) no-repeat left 4px;
+  font-size: 13px;
+}
+
+/** 外部リンク */
+.external-link-block {
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+.external-link-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.external-link-item {
+  margin: 0 0 4px 0;
+}
