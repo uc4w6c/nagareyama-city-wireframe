@@ -1,0 +1,115 @@
+/** トップへ戻る */
+.topwrap {
+  margin: 20px 0 0 0;
+  display: flex;
+  font-size: 95%;
+  justify-content: flex-end;
+  width: 950px;
+}
+.back-link-block {
+  display: inline;
+}
+.back-link-href {
+  margin-right: 15px;
+  padding-left: 20px;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/page/mark_pageback.png) no-repeat left center;
+  font-size: 14px;
+}
+
+.viewmode-footer {
+  margin-bottom: 10px;
+  font-size: 95%;
+  display: inline;
+  width: 230px;
+  float: right;
+  font-size: 80%;
+}
+.viewmode-dl-footer {
+  margin: 0 0 0 5px;
+  background: #FFFFFF;
+  border: 1px solid #333300;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+/** フッター */
+footer{
+  bottom: 0;
+  width: 950px;
+}
+
+.topfooterbg {
+  margin: 0px;
+  width: 100%;
+}
+.topfooterbg {
+  margin: 0px;
+  padding: 30px 0px 85px 0px;
+  font-size: 95%;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/footer/footer_bg.jpg) no-repeat center bottom;
+  text-align: left;
+}
+.footernavi {
+  margin: 0;
+  padding: 0;
+}
+.footer-list {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  list-style-type: none;
+}
+.footer-item {
+  margin-right: 8px;
+  margin-left: 8px;
+  padding-left: 20px;
+  display: inline;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/footer/mark_footer.png) no-repeat left center;
+}
+.footer-item-href {
+  display: inline-block;
+  color: #333333;
+  font-size: 13px;
+}
+.city-hall-info-block {
+  display: flex;
+  margin: 0 60px;
+  padding: 0 0 10px 0;
+}
+.city-hall-info-left-block {
+  padding: 5px 10px 0px 0px;
+  width: 150px;
+}
+.city-hall-info-right-block {
+  padding: 5px 0px 0px 10px;
+  width: 640px;
+}
+.city-hall-info-title {
+  padding-left: 25px;
+  font-size: 16px;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/footer/nagareyama.gif) no-repeat left center;
+  margin: 0;
+}
+.city-hall-address {
+  font-style: normal;
+  font-size: 12px;
+}
+.city-hall-address-href {
+  color: #333333;
+}
+.city-hall-info-pconly {
+  font-size: 12px;
+  margin: 0;
+}
+
+.copyright {
+  clear: both;
+  text-align: center;
+}
+.copyright-text {
+  font-size: 12px;
+}

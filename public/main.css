@@ -11,3 +11,6 @@
   /* font-size: 85%; */
   margin-left: 0;
 }
+main {
+  display: block;
+}

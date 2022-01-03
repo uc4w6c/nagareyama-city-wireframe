@@ -1,11 +1,12 @@
 .header {
   font-size: 95%;
-  width: 950px;
+  width: 980px;
   background: #FFFFFF;
   padding: 6px 0px 7px 0px;
+  margin: 0 0 15px 0;
 }
 .tlogo {
-  margin: auto 0px auto 0px;
+  margin: auto 0px auto 30px;
   width: 244px;
   max-height: 91px;
   float: left;

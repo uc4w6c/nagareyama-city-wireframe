@@ -379,3 +379,70 @@
 .external-link-item {
   margin: 0 0 4px 0;
 }
+
+/** 紹介パネル */
+.introduction-panel-block {
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+.introduction-panel-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 8px 0;
+  list-style-type: none;
+  padding: 0;
+}
+.introduction-panel-item {
+  margin: 0 0 10px 0;
+}
+.introduction-panel-item:nth-child(odd) {
+  margin-right: 15px;
+}
+.introduction-small-panel-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 8px 0;
+  list-style-type: none;
+  padding: 0;
+}
+.introduction-small-panel-item {
+  margin: 0 0 10px 0;
+}
+.introduction-small-panel-item:nth-child(odd) {
+  margin-right: 15px;
+}
+.introduction-text-link-list {
+  margin: 0 0 20px 0;
+  list-style-type: none;
+  padding: 0;
+  background: #FFF;
+  border-top: dotted 1px #333300;
+}
+.introduction-text-link-item {
+  padding: 8px 5px 10px 23px;
+  background: url(https://www.city.nagareyama.chiba.jp/_template_/_site_/_default_/_res/asp/images/content/mark_list.png) no-repeat 5px 14px;
+  border-bottom: dotted 1px #333300;
+}
+.introduction-text-link-href {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+/** SNS */
+.sns-block {
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+.sns-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sns-item {
+  width: 130px;
+}
+.sns-item:nth-child(odd) {
+  margin-right: 15px;
+}

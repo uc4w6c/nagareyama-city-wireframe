@@ -1,12 +1,11 @@
 .pickup {
   margin: 0px;
-  padding: 20px 0px 15px 0px;
+  padding: 20px 0px 15px 30px;
   width: 100%;
   background: #D9EDC5;
   border-top: 1px solid #99CC00;
   text-align: center;
   position: relative;
-  margin: 0px auto 0px auto;
   width: 1130px;
   height: 280px;
 }
@@ -35,6 +34,7 @@
 .pickup-main-photo-href {
   display: block;
   text-align: center;
+  margin: 0;
 }
 
 /** ナビゲージョンバー */
